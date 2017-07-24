@@ -16,7 +16,7 @@ public class Info {
 		return info;
 	}
 
-	public void setInfo(String info) {
+	public void setInfo(String info) { 
 		this.info = info;
 	}
 
