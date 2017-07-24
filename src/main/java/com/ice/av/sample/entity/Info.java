@@ -20,11 +20,11 @@ public class Info {
 		this.info = info;
 	}
 
-	public Date getTimestamp() {
-		return new Date();
+	public String getTimestamp() {
+		return new Date().toString();
 	}
 
-	public void setTimestamp(Date timestamp) {
+	public void setTimestamp(String timestamp) {
 	}
 
 	@Override
