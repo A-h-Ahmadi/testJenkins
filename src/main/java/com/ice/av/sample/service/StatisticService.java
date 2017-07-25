@@ -21,6 +21,6 @@ public class StatisticService {
 
     @RequestMapping(value = "/info", method = RequestMethod.GET)
     public Info getInfo(){
-        return new Info().withInfo("This is a test written by Amir...");
+        return new Info();//.withInfo("This is a test written by Amir...");
     }
 }
