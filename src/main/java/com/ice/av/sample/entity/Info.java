@@ -15,9 +15,14 @@ public class Info {
 	public String getInfo() {
 		return info;
 	}
-
+	
 	public void setInfo(String info) { 
 		this.info = info;
+	}
+
+	public Info withInfo(String info) { 
+		this.info = info;
+		return this;
 	}
 
 	public String getTimestamp() {
